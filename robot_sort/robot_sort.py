@@ -99,7 +99,7 @@ class SortingRobot:
         self.set_light_on()                 # initialize light to on
 
         while self.light_is_on():           # while the light is on
-            self.set_light_off()            # make sure the light is off
+            self.set_light_off()            # turn off the bot's light
 
             while self.can_move_right():    # if the bot can keep going to the right
                 self.swap_item()            # the right number is smaller, so swap

@@ -35,6 +35,7 @@ Write out your proposed algorithm in plain English or pseudocode AND give the ru
 4. if the height of the egg is greater than breakingFloor, the egg will break
 5. if the height of the egg is less than the breakingFloor value, the egg will not break
 6. return either: 'the egg broke' or 'the egg did not break'
+7. the runtime complexity is O(n)
 
 ```
 

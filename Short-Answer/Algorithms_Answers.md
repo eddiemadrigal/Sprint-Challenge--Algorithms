@@ -2,6 +2,7 @@
 
 ## Exercise I
 
+```
 a)  a = 0                   # variable a is set to zero
     while (a < n * n * n):  # while loop run while constant n times three is run, giving O(n)
       a = a + n * n         # a is assigned multiplication and addition of constants
@@ -23,5 +24,7 @@ c)  def bunnyEars(bunnies):             # definition of bunnyEars defined
       return 2 + bunnyEars(bunnies-1)   # return produces an O(n), as the time needed will depend on the size of the input
 
 ## Exercise II
+
+```
 
 

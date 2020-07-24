@@ -101,7 +101,7 @@ class SortingRobot:
         while self.light_is_on():           # while the light is on
             self.set_light_off()            # turn off the bot's light
 
-            while self.can_move_right():    # if the bot can keep going to the right
+            while self.can_move_right():    # if the bot can keep going to the right (not at the end of the list)
                 self.swap_item()            # the right number is smaller, so swap
                 self.move_right()           # go to the next right position
 
@@ -113,7 +113,7 @@ class SortingRobot:
                 self.swap_item()            # swap items
                 self.move_right()           # move to the right by one position
 
-            while self.can_move_left():     # if the bot can keep going to the left
+            while self.can_move_left():     # if the bot can keep going to the left (but not at the beginning of the list)
                 self.swap_item()            # swap the items
                 self.move_left()            # move to the left by one position
 
